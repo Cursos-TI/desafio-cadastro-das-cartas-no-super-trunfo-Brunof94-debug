@@ -88,9 +88,13 @@ int main(){
 
     printf("Número de pontos turísticos: %d\n", numPontosTuristicos1);
 
-    printf("Densidade populacional: %2f\n", (float) populacao1 / area1);
+    float densidade1 = (float) populacao1 / area1; //Adiciona a uma variável para densidade populacional.
 
-    printf("PIB per Capita: %2f\n\n", (float) pib1 / populacao1);
+    printf("Densidade populacional: %2f\n", densidade1);
+
+    float pibPerCapita1 = (float) pib1 / populacao1; //Adiciona uma variável para PIB per capita.
+
+    printf("PIB per Capita: %2f\n\n", pibPerCapita1);
 
     //Saída de dados da carta 2.
     printf("Carta 2\n");
@@ -109,9 +113,13 @@ int main(){
 
     printf("Número de pontos turísticos: %d\n", numPontosTuristicos2);
 
-    printf("Densidade populacional: %.2f\n", (float) populacao2 / area2);
+   float densidade2 = (float) populacao2 / area2; //Adiciona a uma variável para densidade populacional.
 
-    printf("PIB per Capita: %.2f\n", (float) pib2 / populacao2);
+    printf("Densidade populacional: %2f\n", densidade2);
+
+    float pibPerCapita2 = (float) pib2 / populacao2; //Adiciona uma variável para PIB per capita.
+
+    printf("PIB per Capita: %2f\n\n", pibPerCapita2);
 
     return 0;
 }
