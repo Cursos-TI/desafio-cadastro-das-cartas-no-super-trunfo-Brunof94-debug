@@ -86,7 +86,11 @@ int main(){
 
     printf("PIB: %.3f\n", pib1);
 
-    printf("Número de pontos turísticos: %d\n\n", numPontosTuristicos1);
+    printf("Número de pontos turísticos: %d\n", numPontosTuristicos1);
+
+    printf("Densidade populacional: %2f\n", (float) populacao1 / area1);
+
+    printf("PIB per Capita: %2f\n\n", (float) pib1 / populacao1);
 
     //Saída de dados da carta 2.
     printf("Carta 2\n");
@@ -104,6 +108,10 @@ int main(){
     printf("PIB: %.3f\n", pib2);
 
     printf("Número de pontos turísticos: %d\n", numPontosTuristicos2);
+
+    printf("Densidade populacional: %.2f\n", (float) populacao2 / area2);
+
+    printf("PIB per Capita: %.2f\n", (float) pib2 / populacao2);
 
     return 0;
 }
