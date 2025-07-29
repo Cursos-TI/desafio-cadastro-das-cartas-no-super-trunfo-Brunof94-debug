@@ -10,14 +10,14 @@ int main(){
     float pib1;
     int numPontosTuristicos1;
 
-    // Variáveis da carta 2.
-    char estado2;
-    char codigo2[5]; 
-    char cidade2[30]; 
-    int populacao2; 
-    float area2; 
-    float pib2; 
-    int numPontosTuristicos2; 
+                                    // Variáveis da carta 2.
+                                        char estado2;
+                                            char codigo2[5]; 
+                                                char cidade2[30]; 
+                                                    int populacao2; 
+                                                        float area2; 
+                                                            float pib2; 
+                                                                int numPontosTuristicos2; 
 
     //Entrada de dados da carta 1.
     printf("Carta 1 \n");
